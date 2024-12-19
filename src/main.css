@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: lightgray;
+    font-size: 27px;
+}
+
+.header-top {
+    display: flex;;
+    justify-content: space-between;
+    position: relative;
+    height: 60px;
+    padding: 23px 20px 17px 20px;
+}
+
+.header-top img {
+    width: 100%;
+    height: 30px;    
+}
+
+.header-top .logo img {    
+    position: relative;
+    top: -60px; /* ^^;; */
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    font-size: 13px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: green;
+    font-size: 13px;
+}
+
+.mainbanner {
+padding: 30px 30px 10px 30px;
+background-color: white;
+}
+
+.mainbanner img{
+    width: 100%;
+}
+
+.item-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    letter-spacing: 0;
+    word-spacing: 0;
+    background-color: white;
+    padding: 5px 0px;
+}
+
+.item {
+    width: 18%;
+    height: 100px;
+}
+
+.item > div {
+    padding: 0px 10px;
+}
+
+.item img{
+    width: 100%;
+    height: auto;
+}
